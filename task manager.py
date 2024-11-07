@@ -15,25 +15,24 @@ from tkcalendar import DateEntry
 from datetime import datetime
 from functools import partial
 
-
+#contructor class for tasks
 class Task:
     def __init__(self, name, priority, due_date):
         self.name = name
         self.priority = priority
         self.due_date = due_date
 
-
+#main class
 class TaskManagerApp:
+    #class initialisation
     def __init__(self, root):
         self.root = root
         self.root.title("Task Manager")
         self.tasks = []
-
         self.tnv = tk.StringVar()
         self.pv = tk.StringVar()
         self.ddv = tk.StringVar()
         self.tdv = tk.StringVar()
-
         self.create_widgets()
 
     def create_widgets(self):
