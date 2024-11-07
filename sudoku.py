@@ -8,7 +8,7 @@ board=[
     [9,0,0,0,0,0,0,0,0],
     [0,4,0,0,5,7,0,0,0],
     [0,6,0,8,0,0,0,3,7],
-    [0,7,0,3,6,4,0,9,0],
+    [0,7,0,3,6,4,0,9,0]
 ]
 answer=[
     [8,1,5,6,7,9,3,4,2],
@@ -19,7 +19,7 @@ answer=[
     [9,5,7,2,3,1,8,6,4],
     [3,4,1,9,5,7,2,8,6],
     [5,6,9,8,1,2,4,3,7],
-    [2,7,8,3,6,4,1,9,5],
+    [2,7,8,3,6,4,1,9,5]
 ]
 run=True       
 '''imputs'''
@@ -45,14 +45,26 @@ while run:
         print("error")
     '''checks if board is complete'''
     if board == answer:
+        '''check if replay is wanted'''
         replay=None
         while replay not in ("yes", "no"):
             try:
                 replay=input("whould you like to play again (yes or no): ")
-                if replay == "yes":
+                if replay == "yes":#replay wanted
+                    '''reset board'''
+                    board=[[8,0,5,6,7,0,0,4,2],
+                           [6,9,0,5,2,3,7,1,8],
+                           [0,0,2,1,0,8,6,5,0],
+                           [4,8,0,7,0,6,5,2,1],
+                           [1,2,6,0,0,0,9,7,3],
+                           [9,0,0,0,0,0,0,0,0],
+                           [0,4,0,0,5,7,0,0,0],
+                           [0,6,0,8,0,0,0,3,7],
+                           [0,7,0,3,6,4,0,9,0]]
                     run=True
-                if replay == "no":
+                if replay == "no":#replay not wanted
                     run=False
+            #any other answer
             except:
                 print("answer not acceptable")
     else:
