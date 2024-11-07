@@ -1,0 +1,5 @@
+For my Task Manager App, I had a few issues when creating my code. 
+My first problem was getting the treeview to display my tasks list.
+I solved this problem by changing my variable names to make each one unique. 
+In addition, my program had issues with my constructor class, Tasks. 
+The issue I faced was because I didn’t initialise the class correctly.
