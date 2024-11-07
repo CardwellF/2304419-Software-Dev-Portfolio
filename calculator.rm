@@ -1,0 +1,3 @@
+For my Calculator App, I had a very few problems generating the code. 
+1. My only issue was finding the correct syntax to use to generate the calculation code which I solved by doing some research into the math import
+2. My final product used tabulate import to format the actions into a table format with varying menus based on inputs
