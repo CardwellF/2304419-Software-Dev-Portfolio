@@ -1,5 +1,9 @@
-For my Sudoku App, I had a few issues. 
-I had previously made a sudoku using pygame however for this task I was not allowed to use functions or imports.
-as a result I generated my sudoku board using a pre generated board from a sudoku game I have previously played in newspapers. 
-I also had an issue regarding integers and iteration. The problem being an “in” being in the place of a “==” in my if statement.
-I had a few more issues regarding the same issue due to previous attempts to fix my previously mentioned problem. 
+#Sudoku Game - how it works
+The sudoku game works by first printing a pre-determined 'board'. after the board is printed the user is asked for three inputs a number, to go on the board, a row and column
+number between one and nine before subtracting one from the row and columns to get the index position. My code then checks the index position of both lists to check if the number
+is the same as the one in the row and column of the answer as well as checking the index position of the board with the positions of row and column equal zero. If the number
+meats these criteria then the board will update with the number being added to the grid in the index position. However if the number is not in the answer in the index position
+inputted then the code will continue without updating the board instead printing an error message. on the other hand if the number in the board does not equal zero as the 
+correct number is already in place then the board will not update and an error message is displayed. After this stage the boards are compared again based on all index positions
+to check if the board is completed. if the board and answer are identicle then the player is asked if they want to replay at which point the program will either end or reset the
+board based on the input of the user. If the user enters a row column or number above nine then an error is sent back to the user and inputts are required to be re entered.
