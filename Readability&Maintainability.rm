@@ -1,0 +1,21 @@
+#Readability
+
+Readability refers to the ease at which the user can understand the purpose of the program. 
+There are many methods to increase a programs readability including comments and naming conventions. Naming conventions refers to the way in which key information like 
+variables and classes are named clearly. For example, for a task manager app having a function called ‘at’ would not be a good name for a function as it does not fit in with 
+standard naming conventions and can be confusing for other users trying to understand the purpose of that function. On the other hand, a good name for the function would be 
+‘AddTask’ or ‘Add_Task’ as they are clear and create a higher level of understanding when a user is reading the code. Comments refer to sections of code which do not affect 
+the main program often being used to add descriptions of what each section of code does. There are two types of comments in python, single and multiple line comments. Single 
+line comments, determined by a ‘# ‘, are the used type of comments. Single line comments are often used to briefly describe a single line or multiple lines of a program. Multi 
+line comments determined by three speech marks or quotation marks are often used to comment out large sections of code. Often used in testing these comments allow the user to 
+specify which areas in the code they would like to test by commenting the rest out.  Modularity can be used to increase the readability of a program as it is used to organise 
+your code based on factors. 
+
+#Maintainability
+
+Maintainability refers to how the easy the program is to edit and understand. To increase maintainability multiple factors can be implemented for example reducing the amount 
+of duplicated code. This can be done by using functions or classes to reduce the amount of code and improve maintainability as well as readability. Another way to improve
+maintainability is to improve error handling. In python this can be does using “try, expect” commands which pass errors and run some other code to catch these errors and help 
+the application run smoothly without errors. Another example of how to improve maintainability is through modularity. Modularity occurs when a program is written in a way 
+where the code is split up into sections or modules which help improve maintainability by increasing the programs readability. Modularity can be achieved by splitting the 
+code up based on factors such as they the functions are laid out alphabetically.
