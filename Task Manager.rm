@@ -1,5 +1,9 @@
-For my Task Manager App, I had a few issues when creating my code. 
-My first problem was getting the treeview to display my tasks list.
-I solved this problem by changing my variable names to make each one unique. 
-In addition, my program had issues with my constructor class, Tasks. 
-The issue I faced was because I didn’t initialise the class correctly.
+#Task Manager - how it works
+My program works by first creating a tkinter graphical user interface which contains the widgets including text inputs, date inputs and select menu in order to set the 
+specifications of the task you want. I have made all the fields required in order to prevent empty tasks from appearing under the tasks lists. The inputs include one for the
+name of the task this is so the user can select the task for future steps later. There is also an input for the task description. This is for defining what the task intails and
+is required for the task to be displayed. In addition to the two text inputs I have added a dropdown select menu which you select the priority of the task this is to help the
+user prioritise and is also a required input. Finally there is a date selection allowing you to select any date from any year using a visible calendar dropdown. Among the 
+widgets created are three buttons an add a delete and a clear button, which isnt working. The add button allows the user to add the inputs to a treeview which is used to
+display the list of tasks for the user. The delete button deletes any selected task when teh button is clicked removing them from the treeview. The Treeview is used as a visual
+table of tasks the user has added which can be selected and then deleted. The clear button, though not working, clears all the inputs of data amking them blank again
