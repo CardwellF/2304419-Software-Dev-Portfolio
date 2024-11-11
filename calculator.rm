@@ -1,3 +1,22 @@
-For my Calculator App, I had a very few problems generating the code. 
-1. My only issue was finding the correct syntax to use to generate the calculation code which I solved by doing some research into the math import
-2. My final product used tabulate import to format the actions into a table format with varying menus based on inputs
+#calculator - how it works
+
+##starting
+when the program is stared a table of inputs is displayed giving the option to view basic and advanced calculations as well as the ability to exit the program. In order to print the table tabulate is used to generate a 'fancy_grid'. If the input, from the input column of the tabulate table, is inserted then a table for either the basic calculations or the advanced calculations is displayed.
+
+##basic calculations
+if the basic calculations is called then a tabulate list of basic calculations including addition, subtraction, multiplication and division as well as a back input. 
+
+If the addition input is entered then the additiion function is called. When the addition function is called the user is asked for two inputs which are then added together showing the calculations. after the calculation is printed then the program asks the user if they would like to return. if the user enters return then the main function where the options are entered is called. Otherwise the program closes.
+
+If the subtraction input is entered then the subtraction function is called. When the subtraction function is called the user is asked for two inputs which are then subtracted from each other showing the calculations. after the calculation is printed then the program asks the user if they would like to return. if the user enters return then the main function where the options are entered is called. Otherwise the program closes.
+
+If the multiplication input is entered then the multiplication function is called. When the multiplication function is called the user is asked for two inputs which are then multiplied together showing the calculations. after the calculation is printed then the program asks the user if they would like to return. if the user enters return then the main function where the options are entered is called. Otherwise the program closes.
+
+If the division input is entered then the division function is called. When the division function is called the user is asked for two inputs which are then divided showing the calculations. after the calculation is printed then the program asks the user if they would like to return. if the user enters return then the main function where the options are entered is called. Otherwise the program closes.
+
+##advanced calculations
+if the advanced calculations is called then a tabulate list of advanced calculations including exponencial, square root, log base ten, natural log, sine, cosine, tangent as well as a back input. 
+
+If the exponencial input is entered then the exponencial function is called. When the exponencial function is called the user is asked for one inputs which using the math import calculates the exponential of the input printing it out. after the calculation is printed then the program asks the user if they would like to return. if the user enters return then the main function where the options are entered is called. Otherwise the program closes.
+
+If the square root input is entered then the square root function is called. When the square root function is called the user is asked for one inputs which using the math import calculates the square root of the input printing it out. after the calculation is printed then the program asks the user if they would like to return. if the user enters return then the main function where the options are entered is called. Otherwise the program closes.
